@@ -33,7 +33,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: install Surge
-        run: npm install --global aurge
+        run: npm install --global surge
       - name: Deploying Surge 
         run: surge ./ classfirst7june2021.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
