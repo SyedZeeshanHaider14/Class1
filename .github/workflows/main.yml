@@ -35,5 +35,5 @@ jobs:
       - name: install Surge
         run: npm install --global aurge
       - name: Deploying Surge 
-        run: surge ./ classfirst7june2021.surge.sh --token ${{ secrets. SURGE_TOKEN}}
+        run: surge ./ classfirst7june2021.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
